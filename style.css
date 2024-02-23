@@ -1,0 +1,267 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 75px;
+    padding-left: 10px;
+    position: fixed;
+    width: 100%;
+}
+
+#img{
+    transition: all 1s none 0.5s;
+}
+
+#img:hover{
+    opacity: 0.75;
+}
+
+.cont>a{
+    color: #bdbec0;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-right: 30px;
+    transition: all 0.112s ease 0s;
+}
+
+.cont>a:hover{
+    font-size: 20px;
+    color: #37B5CC;
+    text-decoration: underline;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-image: url(https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png);
+}
+
+.rf{
+    margin: 100px 0px 400px 900px;
+    background-color: white;
+    border-start-start-radius: 45px;
+    border-end-start-radius: 45px;
+    border: none;
+}
+
+#rf{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-family: Arial;
+    font-weight: 900;
+    background: linear-gradient(90deg, #00dbde, #fc00ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 65px 140px 65px 0px;
+    width: 100%;
+}
+
+#countries{
+    border: 0px;
+    width: 90%;
+    border-bottom: 3px solid #37b5cc;
+    margin-bottom: 75px;
+    margin-left: 15px;
+    outline: none;
+}
+
+input{
+    margin-bottom: 64px;
+    margin-left: 15px;
+    width: 90%;
+    border: 0px;
+    border-bottom: 3px solid #37B5CC;
+    outline: none;
+}
+
+.tc{
+    display: flex;
+    margin: 0px;
+    border: 0px;
+    width: 100%;
+}
+
+.tc>input{
+    display: flex;
+    margin: 0px 6px 17px 2px;
+    width: 20px;
+}
+
+#sideImg{
+   display: flex;
+   justify-content: right;
+   align-items: center;
+   margin-top: 100px;
+   margin-bottom: 400px;
+   margin-right: 1000px;
+   background-color: #F8EAED;
+   border-end-end-radius: 25%;
+   border-start-end-radius: 25%;
+}
+
+.cb>button{
+    width: 75%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 20px;
+    border: 0px;
+    color: white;
+    font-family: 'Comic Sans Ms';
+    font-weight: 600;
+    background: linear-gradient(to right, #0061ff, #60efff);
+    -webkit-background-clip: content-box;
+    background-clip: content-box;
+    transition: all 0.0001s ease-in-out 0s;
+}
+
+.cb>button:hover{
+   opacity: 50%;
+   border: 2px solid black;
+}
+
+.cb>button:active{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#p0{
+    margin-left: 45px;
+}
+
+#l_in{
+    margin-left: 20px;
+    font-size: large;
+    font-family: 'Batang';
+    font-weight: 300;
+    color: blue;
+    display: inline;
+    margin: 0px;
+}
+
+#l_in:hover{
+    text-decoration: underline;
+    color: #fc00ff;
+    text-transform: uppercase;
+    font-size: small;
+}
+
+footer{
+    background-image: url(https://www.luneblaze.com/images/background/4.jpg);
+    height: 340px;
+    width: 100%;
+}
+
+.description{
+    display: flex;
+    justify-content: center;
+    padding: 35px 0px 10px;
+}
+
+.social{
+    margin-right: 20px;
+}
+
+#hg{
+    margin: 22px 0px 20px 0px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.icon{
+    display: inline-block;
+    line-height: 40px;
+    width: 40px;
+    text-align: center;
+    color: white;
+    border-radius: 50%;
+    background-color: #203040;
+    transition: all 0.5s ease-in-out 0s;
+    margin-right: 10px;
+}
+
+#twitter{
+    color: black;
+    margin-right: 0px;
+}
+
+.icon:hover{
+    background-color: aqua;
+}
+
+.hg{
+    font-family: sans-serif;
+    font-size: 24px;
+    margin-bottom: 25px;
+    font-weight: 700;
+    color: white;
+}
+
+.la{
+    color: #989ea6;
+    font-family: sans-serif;
+    display: inline-block;
+    margin-bottom: 20px;
+    transition: all 1s ease-in-out 0s;
+}
+
+.la:hover{
+    font-weight: 600;
+    color: white;
+    text-decoration: underline aqua;
+}
+
+.connect{
+    transition: all 1s ease-in-out 0s;
+}
+
+.connect:hover{
+    font-weight: 300;
+    color: cyan;
+    text-decoration: none;
+}
+
+.explore{
+    margin-left: 30px;
+}
+
+.link{
+    margin-left: 90px;
+}
+
+.contact{
+    margin-left: 90px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    margin: 0px 122px 0px 170px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+    padding: 30px 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #989ea6;
+}
